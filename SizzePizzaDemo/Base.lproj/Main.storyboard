@@ -28,47 +28,65 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmf-dJ-Yfe">
-                                <rect key="frame" x="20" y="47" width="70" height="30"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Pepperoni">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KG9-20-Hy0">
-                                <rect key="frame" x="515" y="47" width="65" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KG9-20-Hy0">
+                                <rect key="frame" x="305" y="66" width="275" height="64"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Cheese">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMo-xJ-5tE">
-                                <rect key="frame" x="277" y="550" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMo-xJ-5tE">
+                                <rect key="frame" x="0.0" y="526" width="580" height="64"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Done">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GtO-Zw-tcA">
-                                <rect key="frame" x="212" y="212" width="175" height="175"/>
+                                <rect key="frame" x="20" y="140" width="560" height="376"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="175" id="0Bu-zi-FFn"/>
-                                    <constraint firstAttribute="height" constant="175" id="qyL-Bo-bMs"/>
-                                </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmf-dJ-Yfe">
+                                <rect key="frame" x="20" y="66" width="275" height="64"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="emQ-gP-kaT"/>
+                                </constraints>
+                                <state key="normal" title="Pepperoni">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="lwz-rE-zm0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="1sZ-d5-MOD"/>
-                            <constraint firstItem="GtO-Zw-tcA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7ZX-3c-wuF"/>
+                            <constraint firstItem="GtO-Zw-tcA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="2gc-4i-BiZ"/>
+                            <constraint firstItem="KG9-20-Hy0" firstAttribute="top" secondItem="nmf-dJ-Yfe" secondAttribute="top" id="6Mx-8T-em0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FMo-xJ-5tE" secondAttribute="bottom" constant="10" id="DWN-Xb-fS3"/>
                             <constraint firstItem="lwz-rE-zm0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="F4T-V9-0qL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KG9-20-Hy0" secondAttribute="trailing" id="FqC-r9-cj0"/>
+                            <constraint firstItem="nmf-dJ-Yfe" firstAttribute="height" secondItem="FMo-xJ-5tE" secondAttribute="height" id="Onv-AD-EtX"/>
+                            <constraint firstItem="nmf-dJ-Yfe" firstAttribute="height" secondItem="KG9-20-Hy0" secondAttribute="height" id="Q08-AO-UDe"/>
+                            <constraint firstItem="GtO-Zw-tcA" firstAttribute="top" secondItem="nmf-dJ-Yfe" secondAttribute="bottom" constant="10" id="QX2-XS-ezw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FMo-xJ-5tE" secondAttribute="trailing" id="UM7-eW-V6i"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GtO-Zw-tcA" secondAttribute="trailing" id="XW2-gb-MU1"/>
+                            <constraint firstItem="nmf-dJ-Yfe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="bai-GI-MMb"/>
+                            <constraint firstItem="nmf-dJ-Yfe" firstAttribute="top" secondItem="lwz-rE-zm0" secondAttribute="bottom" constant="10" id="grR-Hb-vCh"/>
+                            <constraint firstItem="nmf-dJ-Yfe" firstAttribute="width" secondItem="KG9-20-Hy0" secondAttribute="width" id="k91-I2-iKa"/>
+                            <constraint firstItem="KG9-20-Hy0" firstAttribute="leading" secondItem="nmf-dJ-Yfe" secondAttribute="trailing" constant="10" id="lno-A2-dOV"/>
+                            <constraint firstItem="FMo-xJ-5tE" firstAttribute="top" secondItem="GtO-Zw-tcA" secondAttribute="bottom" constant="10" id="q66-Ji-2iG"/>
+                            <constraint firstItem="nmf-dJ-Yfe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qFT-Ld-Qp9"/>
+                            <constraint firstItem="FMo-xJ-5tE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="r9m-pn-UOf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lwz-rE-zm0" secondAttribute="trailing" id="ul5-YO-pOb"/>
-                            <constraint firstItem="GtO-Zw-tcA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uvQ-y3-aUa"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="bai-GI-MMb"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
